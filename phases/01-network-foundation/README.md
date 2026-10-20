@@ -54,3 +54,13 @@
 **Private-only discovery details:** Actual installed DHCP pool, current gateway, WAN address, WAN MAC, exported configuration and any device labels. Do not include these in issues, screenshots or commit messages.
 
 **Next gate:** Identify ONT model and 10GbE-capable Ethernet handoff; then choose firewall and switch with verified cabling and throughput.
+
+## ONT capability finding — 2026-10-19
+
+**Confirmed physical model:** Calix GigaPoint GP1100X. Per Calix's official [ONT specifications](https://www.calix.com/products/platform/unlimited-subscriber/gigapoint-ont-onu.html), it uses XGS-PON optical transport but provides only **one 2.5GbE RJ45 customer-facing Ethernet port**. The advertised fiber technology speed is not equivalent to a 10GbE LAN handoff.
+
+**Engineering implication:** The present ONT Ethernet output cannot deliver 5 Gbps to a downstream router through its single Ethernet port. A 10GbE firewall upgrade alone will not solve the WAN bottleneck.
+
+**Next action:** Request provider confirmation of the account speed tier and a supported replacement ONT with a 10GbE RJ45 customer handoff (for example, Calix GP1101X *if supported by the provider*). Verify provisioning, installation, price, media, and transition/rollback before buying a firewall.
+
+**Privacy:** Do not publish photographs of hardware labels, serial numbers, registration identifiers, barcodes, MAC addresses, or actual ISP account records.
