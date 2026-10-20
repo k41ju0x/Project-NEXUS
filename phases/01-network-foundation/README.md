@@ -42,3 +42,15 @@
 - [ ] No public management services exposed
 - [ ] Rollback and recovery tested
 - [ ] Public and private documentation separated
+
+## Discovery update — 2026-10-19
+
+**Sanitized public summary:** A 5 Gbps fiber plan uses an ISP-provided fiber termination device and a consumer Wi-Fi 6E router currently performing DHCP, NAT and wireless access. The router receives WAN settings dynamically and uses a 2.5GbE WAN interface. The intended migration is to a tested 10GbE-capable firewall with the existing router retained as an access point.
+
+**Verified:** WAN DHCP mode, 2.5GbE WAN selection, wireless-router operating mode, router firmware checked against the vendor's current model-specific support page.
+
+**Not yet verified:** Exact ONT manufacturer/model, ONT Ethernet handoff speed and media, required ISP settings, and performance of a candidate firewall under planned IDS/IPS load.
+
+**Private-only discovery details:** Actual installed DHCP pool, current gateway, WAN address, WAN MAC, exported configuration and any device labels. Do not include these in issues, screenshots or commit messages.
+
+**Next gate:** Identify ONT model and 10GbE-capable Ethernet handoff; then choose firewall and switch with verified cabling and throughput.
