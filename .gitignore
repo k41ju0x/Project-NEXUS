@@ -1,0 +1,21 @@
+# Secret material and local/private artifacts
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+id_ed25519*
+*.kdbx
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+*.auto.tfvars
+*.backup
+*.bak
+*router-export*
+*firewall-backup*
+private/
+operations/
+secrets/
