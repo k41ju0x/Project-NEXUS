@@ -70,3 +70,9 @@
 **Field update:** ISP technician completed the ONT equipment replacement. The updated ONT is installed, per owner report. The exact replacement label, negotiated router Ethernet link rate, sustained bandwidth, and connection stability are **not yet measured/verified**. Do not treat the 5 Gbps service tier as a validated speed-test result.
 
 **Next validation:** Confirm the replacement model and 10GbE-capable handoff without disclosing identifying labels, document the current router's 2.5GbE WAN port limitation, run wired baseline tests, and monitor for any continued dropouts. A future 10GbE WAN/LAN firewall and 10GbE-capable client are needed to validate single-link speeds above 2.5 Gbps. Do not upload sensitive ONT photographs, public IPs, serials, or MAC addresses.
+
+## Replacement model verified by label — 2026-10-22
+
+The technician-installed replacement's label confirms **Calix GigaPoint GP1101X**, the model intended for a 10GbE Ethernet handoff. This is a model-identification milestone only: negotiated link speed and end-to-end 5 Gbps throughput remain untested with the existing 2.5GbE WAN router. Next: select compatible 10GbE firewall and 10GbE uplink switch, then perform wired validation after staging.
+
+**Privacy:** Original photographs include serial numbers, MAC addresses, registration identifiers and QR/barcodes. Do not publish those photographs or identifiers.
