@@ -64,3 +64,9 @@
 **Next action:** Request provider confirmation of the account speed tier and a supported replacement ONT with a 10GbE RJ45 customer handoff (for example, Calix GP1101X *if supported by the provider*). Verify provisioning, installation, price, media, and transition/rollback before buying a firewall.
 
 **Privacy:** Do not publish photographs of hardware labels, serial numbers, registration identifiers, barcodes, MAC addresses, or actual ISP account records.
+
+## ONT replacement completed — 2026-10-22
+
+**Field update:** ISP technician completed the ONT equipment replacement. The updated ONT is installed, per owner report. The exact replacement label, negotiated router Ethernet link rate, sustained bandwidth, and connection stability are **not yet measured/verified**. Do not treat the 5 Gbps service tier as a validated speed-test result.
+
+**Next validation:** Confirm the replacement model and 10GbE-capable handoff without disclosing identifying labels, document the current router's 2.5GbE WAN port limitation, run wired baseline tests, and monitor for any continued dropouts. A future 10GbE WAN/LAN firewall and 10GbE-capable client are needed to validate single-link speeds above 2.5 Gbps. Do not upload sensitive ONT photographs, public IPs, serials, or MAC addresses.
